@@ -1,0 +1,7 @@
+.item-body {
+    height:100svh;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: row;
+}
+

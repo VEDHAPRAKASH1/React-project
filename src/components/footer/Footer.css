@@ -1,0 +1,32 @@
+.footer {
+    height: 15svh;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-contact {
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-icons {
+    flex-shrink: 1;
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}

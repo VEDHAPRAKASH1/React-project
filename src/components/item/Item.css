@@ -1,0 +1,5 @@
+.item-card:hover {
+    outline: 3px solid black;
+    box-shadow: 2px;
+    box-shadow: 10px 10px 10px 2px ;
+}

@@ -1,0 +1,74 @@
+.login-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-body {
+    height: 100svh;
+    background-image: url('../../images/Background Image/row-old-textbooks-fills-antique-bookshelf-generated-by-ai.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.login-paper {
+    height: 65%;
+    width: 30%;
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.332);
+}
+
+.login-icon {
+    flex-shrink: 1;
+    margin-top: 9%;
+    margin-bottom: 5%;
+    color: white;
+}
+
+.login-form {
+    flex-grow: 1;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.login-input {
+    width: 90%;
+    background: white;
+    border-radius: 20px;
+    border: 2px solid white;
+    color:black;
+    padding: 10px;
+}
+
+.login-input:focus{
+    outline: 3px solid black;
+}
+
+.login-input:hover{
+    width: 100%;
+}
+
+.login-input::placeholder {
+    color: black;
+}
+
+.login-remove-decoration {
+    text-decoration: none;
+    color: rgb(18, 217, 252);
+} 
+
+.login-sign:hover {
+    color:rgb(0, 255, 89);
+    font-size: large;
+} 
+
+.login-forg:hover {
+    color:rgb(249, 249, 75);
+    font-size: large;
+} 
+
+.login-submit:hover {
+    height: 9%;
+    width: 32%;
+}
