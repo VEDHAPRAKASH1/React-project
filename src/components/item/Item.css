@@ -1,0 +1,7 @@
+.item-card:hover {
+    outline: 3px solid black;
+    box-shadow: 10px 10px 10px 2px ;
+    transform: scale(1.05);
+    transition: transform 0.2s ease-in-out;
+    transition: box-shadow 0.1s ease-in-out;
+}

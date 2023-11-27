@@ -1,0 +1,69 @@
+.signUp-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.signUp-body {
+    height: 100svh;
+    background-image: url('../../images/Background Image/large-collection-books-modern-bookshelf-generated-by-ai.jpg');
+    background-repeat: no-  repeat;
+    background-size:cover;
+}
+
+.signUp-paper {
+    height: 65%;
+    width: 30%;
+    justify-content: space-evenly;
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.332);
+}
+
+.signUp-icon {
+    flex-shrink: 1;
+    margin-top: 9%;
+    margin-bottom: 5%;
+}
+
+.signUp-form {
+    flex-grow: 1;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.signUp-input {
+    width: 90%;
+    background: white;
+    border-radius: 20px;
+    border: 2px solid white;
+    color:black;
+    padding: 10px;
+}
+
+.signUp-input:focus{
+    outline: 3px solid black;
+}
+
+.signUp-input:hover{
+    width: 100%;
+}
+
+.signUp-input::placeholder {
+    color: black;
+}
+
+.signUp-remove-decoration {
+    text-decoration: none;
+    color: rgb(18, 217, 252);
+} 
+
+.signUp-remove-decoration:hover {
+    color:rgb(0, 255, 89);
+    font-size: large;
+} 
+
+.signUp-submit:hover {
+    height: 9%;
+    width: 40%;
+}

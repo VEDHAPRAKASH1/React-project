@@ -1,0 +1,17 @@
+.cart-page {
+    display: flex;
+    flex-direction: column;
+    height: 100svh;
+}
+
+.cart-nav {
+    flex-shrink: 0;
+}
+
+.cart-body {
+    flex-grow: 1;
+}
+
+.cart-footer {
+    flex-shrink: 0;
+}

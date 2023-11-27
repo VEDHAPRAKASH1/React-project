@@ -1,0 +1,22 @@
+.hori-body {
+    width: 95%;
+    height: 200px;
+    margin:15px 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.hori-img {
+    height: 170px;
+    width: 110px;
+}
+
+.hori-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
