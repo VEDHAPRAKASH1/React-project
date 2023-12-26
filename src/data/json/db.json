@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "username": "admin",
+      "email": "admin@gmail.com",
+      "password": "admin",
+      "id": 0
+    },
+    {
+      "username": "aaa",
+      "email": "aaa@gmail.com",
+      "password": "aaa",
+      "wishlist": [],
+      "cart": [],
+      "id": 1
+    },
+    {
+      "username": "bbb",
+      "email": "bbb@gmail.com",
+      "password": "bbb",
+      "wishlist": [],
+      "cart": [],
+      "id": 2
+    },
+    {
+      "username": "ccc",
+      "email": "ccc@gmail.com",
+      "password": "ccc",
+      "wishlist": [],
+      "cart": [],
+      "id": 3
+    }
+  ]
+}

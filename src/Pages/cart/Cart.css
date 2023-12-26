@@ -1,0 +1,29 @@
+.cart-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100svh;
+}
+
+.cart-nav {
+    flex-shrink: 0;
+}
+
+.cart-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.cart-footer {
+    flex-shrink: 0;
+}
+
+.cart-no {
+    height: 100%;
+    color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
